@@ -13,6 +13,7 @@
 		BB70958C1C3F858B00156A31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB70958A1C3F858B00156A31 /* Main.storyboard */; };
 		BB70958E1C3F858B00156A31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB70958D1C3F858B00156A31 /* Assets.xcassets */; };
 		BB7095911C3F858B00156A31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB70958F1C3F858B00156A31 /* LaunchScreen.storyboard */; };
+		BB7095991C3F85D800156A31 /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7095981C3F85D800156A31 /* Candy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BB70958D1C3F858B00156A31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB7095901C3F858B00156A31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB7095921C3F858B00156A31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB7095981C3F85D800156A31 /* Candy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				BB7095841C3F858B00156A31 /* AppDelegate.swift */,
 				BB7095861C3F858B00156A31 /* MasterViewController.swift */,
 				BB7095881C3F858B00156A31 /* DetailViewController.swift */,
+				BB7095981C3F85D800156A31 /* Candy.swift */,
 				BB70958A1C3F858B00156A31 /* Main.storyboard */,
 				BB70958D1C3F858B00156A31 /* Assets.xcassets */,
 				BB70958F1C3F858B00156A31 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB7095891C3F858B00156A31 /* DetailViewController.swift in Sources */,
+				BB7095991C3F85D800156A31 /* Candy.swift in Sources */,
 				BB7095871C3F858B00156A31 /* MasterViewController.swift in Sources */,
 				BB7095851C3F858B00156A31 /* AppDelegate.swift in Sources */,
 			);

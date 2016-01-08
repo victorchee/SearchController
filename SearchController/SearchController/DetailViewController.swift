@@ -12,8 +12,9 @@ class DetailViewController: UIViewController {
 
     @IBOutlet weak var detailDescriptionLabel: UILabel!
 
+    @IBOutlet weak var imageView: UIImageView!
 
-    var detailItem: AnyObject? {
+    var detailItem: Candy? {
         didSet {
             // Update the view.
             self.configureView()
@@ -23,8 +24,10 @@ class DetailViewController: UIViewController {
     func configureView() {
         // Update the user interface for the detail item.
         if let detail = self.detailItem {
-            if let label = self.detailDescriptionLabel {
-                label.text = detail.description
+            if let label = self.detailDescriptionLabel, let imageView = imageView {
+                label.text = detail.name
+                imageView.image = UIImage(named: detail.name)
+                title = detail.category
             }
         }
     }
@@ -39,7 +42,5 @@ class DetailViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 
